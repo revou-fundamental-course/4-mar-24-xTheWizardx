@@ -27,6 +27,12 @@ body {
     height: 90vh;
 }
 
+@media only screen and (max-width: 480px) {
+    .container-content {
+        flex-direction: column;
+    }
+}
+
 .main-content {
     font-family: Verdana, Times New Roman, Tahoma, sans-serif;
     font-size: 25px;
